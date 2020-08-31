@@ -24,8 +24,8 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-FILE_NAME = '/Users/Inika/Desktop/twitter-insult-bot/last_seen_id.txt'
-FILE2_NAME = '/Users/Inika/Desktop/twitter-insult-bot/fairy_insults.txt'
+FILE_NAME = 'last_seen_id.txt'
+FILE2_NAME = 'fairy_insults.txt'
 
 # Returns the last seen Tweet ID from the file.
 
